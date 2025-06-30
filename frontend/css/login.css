@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url('../img/happy-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background: #eaf6f6;
+  color: #333;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 400px;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  color: #2b6777;
+  margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1em;
+}
+
+.btn {
+  padding: 12px;
+  background-color: #52ab98;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #3e8e7e;
+}
+
+p {
+  margin-top: 20px;
+}

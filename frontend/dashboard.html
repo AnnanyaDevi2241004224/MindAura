@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Journal</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+  <div class="container">
+    <h2>My Journal</h2>
+    <div id="quoteBox" class="quote">Loading quote...</div>
+    <form id="journalForm">
+      <textarea name="entry" rows="5" placeholder="How are you feeling today?" required></textarea>
+      <label><input type="checkbox" name="isPublic"> Make public</label>
+      <button type="submit" class="btn">Submit Entry</button>
+    </form>
+    <div id="responseMsg"></div>
+  </div>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
